@@ -70,7 +70,7 @@ def get_words() -> List[str]:
 def get_random_word(words: List[str]) -> str:
     """
     Функция передает случайное слово из списка и удаляет его из самого списка
-    :param: wards: список слов
+    :param: words: список слов
     :type: List[str]
     :return: случайное слово из списка
     """
