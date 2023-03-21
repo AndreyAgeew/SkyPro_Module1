@@ -36,7 +36,7 @@ def quiz(user_name: str, questions: List[str], answers: List[str]) -> int:
     points (int) - кол-во полученных баллов за правильные ответы (по default 0)
     tmp_points (int) - кол-во баллов за один вопрос и кол-во попыток ответить на него (по default 3)
     amount_right_answers (int) - кол-во вопросов (используется для подсчета правильных ответов)
-    :return: points, amount_questions
+    :return: points, amount_right_answers
     """
     points: int = 0
     amount_right_answers: int = len(questions)
